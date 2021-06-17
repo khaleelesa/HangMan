@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
-
+import React, { Component } from "react";
 
 class Score extends Component {
-    render() {
-        return (
-            <div> 100 </div>
-             
-        )
-    }
+  render() {
+    return <div> Score:{this.props.score} </div>;
+  }
 }
-export default Score
+export default Score;
